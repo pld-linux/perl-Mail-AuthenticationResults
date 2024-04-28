@@ -4,16 +4,15 @@
 #
 %define		pdir	Mail
 %define		pnam	AuthenticationResults
-%include	/usr/lib/rpm/macros.perl
 Summary:	Mail::AuthenticationResults - Object Oriented Authentication-Results Headers
 Name:		perl-Mail-AuthenticationResults
-Version:	1.20180923
+Version:	2.20231031
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Mail/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	d4ca126d3af0d1b664249f93bdd021f0
+# Source0-md5:	ebabfd9e0946ca04e9693e3190ee2f2e
 URL:		https://metacpan.org/release/Mail-AuthenticationResults/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
